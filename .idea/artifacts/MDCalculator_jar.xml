@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MDCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MDCalculator_jar</output-path>
+    <root id="archive" name="MDCalculator.jar">
+      <element id="module-output" name="MDCalculator" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/JFoenix/jfoenix-8.0.8.jar" path-in-jar="/" />
+      <element id="library" level="project" name="MDCalculator" />
+    </root>
+  </artifact>
+</component>
