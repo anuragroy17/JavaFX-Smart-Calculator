@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="400.0" style="-fx-background-color: #bfbfbf;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <JFXTextField fx:id="textField" alignment="CENTER_RIGHT" editable="false" focusColor="#2b2b2b" layoutY="32.0" prefHeight="62.0" prefWidth="400.0" promptText="0" style="-fx-background-color: #e2e2e2;" unFocusColor="#636363" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="32.0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <padding>
+            <Insets right="5.0" />
+         </padding></JFXTextField>
+        <HBox AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="100.0">
+            <children>
+                <JFXButton alignment="CENTER" layoutY="87.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="√" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="100.0" layoutY="89.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="x²" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="131.0" layoutY="270.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="x³" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="215.0" layoutY="187.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="1/x" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+            </children>
+        </HBox>
+        <HBox AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="160.0">
+            <children>
+                <JFXButton alignment="CENTER" layoutY="87.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="CE" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.topAnchor="80.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="100.0" layoutY="89.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="C" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="131.0" layoutY="270.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="⌫" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="215.0" layoutY="187.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="\%" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+            </children>
+        </HBox>
+        <HBox AnchorPane.topAnchor="220.0">
+            <children>
+                <JFXButton alignment="CENTER" layoutY="87.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="7" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="100.0" layoutY="89.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="8" textFill="#e2e2e2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="131.0" layoutY="270.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="9" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="215.0" layoutY="187.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="÷" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+            </children>
+        </HBox>
+        <HBox AnchorPane.topAnchor="280.0">
+            <children>
+                <JFXButton alignment="CENTER" layoutY="87.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="4" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="100.0" layoutY="89.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="5" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="131.0" layoutY="270.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="6" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="215.0" layoutY="187.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="×" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+            </children>
+        </HBox>
+        <HBox AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="400.0">
+            <children>
+                <JFXButton alignment="CENTER" layoutY="87.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="." textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="100.0" layoutY="89.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="0" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="131.0" layoutY="270.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #ff6666;" text="=" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="215.0" layoutY="187.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="+" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+            </children>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="340.0">
+            <children>
+                <JFXButton alignment="CENTER" layoutY="87.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="1" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="100.0" layoutY="89.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="2" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="131.0" layoutY="270.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #2b2b2b;" text="3" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+                <JFXButton alignment="CENTER" layoutX="215.0" layoutY="187.0" onAction="#operateButton" prefHeight="60.0" prefWidth="100.0" style="-fx-background-radius: 0; -fx-background-color: #636363;" text="-" textAlignment="CENTER" textFill="#e2e2e2" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font></JFXButton>
+            </children>
+        </HBox>
+      <JFXTextField id="topTxtField" fx:id="textField2" alignment="CENTER_RIGHT" disable="true" editable="false" layoutX="7.0" layoutY="8.0" prefHeight="32.0" prefWidth="400.0" promptText="Calculate Away!" style="-fx-background-color: #636363; -fx-text-fill: #fff; -fx-prompt-text-fill: #d8d8d8;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets right="5.0" />
+         </padding>
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </JFXTextField>
+    </children>
+</AnchorPane>
