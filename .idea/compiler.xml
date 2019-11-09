@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="md-calculator" />
-        <module name="MDCalculator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="md-calculator" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
